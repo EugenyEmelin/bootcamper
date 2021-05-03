@@ -1,9 +1,17 @@
 <component name="ProjectDictionaryState">
   <dictionary name="emeli">
     <words>
+      <w>bcrypt</w>
       <w>bootcamp</w>
       <w>bootcamps</w>
       <w>dotenv</w>
+      <w>dsphere</w>
+      <w>fileupload</w>
+      <w>geocoder</w>
+      <w>scholarhips</w>
+      <w>slugify</w>
+      <w>tuitions</w>
+      <w>virtuals</w>
     </words>
   </dictionary>
 </component>
