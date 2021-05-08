@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="fa758998-f6e7-4f95-97aa-78ae55c32d43" name="digitalocean-devcamper">
-        <fileTransfer accessType="SFTP" host="157.230.103.201" port="22" sshConfigId="84d5e3aa-529e-4a67-8ca6-e71050098aac" sshConfig="root@157.230.103.201:22 key" keyPair="true">
+        <fileTransfer accessType="SFTP" host="167.99.222.245" port="22" sshConfigId="84d5e3aa-529e-4a67-8ca6-e71050098aac" sshConfig="root@167.99.222.245:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

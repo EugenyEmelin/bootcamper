@@ -16,7 +16,7 @@ const colors = require('colors')
 const fileupload = require('express-fileupload')
 const connectDB = require('./config/db')
 const cookieParser = require('cookie-parser')
-const errorHandler = require("./middleware/error")
+const errorHandler = require('./middleware/error')
 
 //Route files include
 const bootcamps = require('./routes/bootcamps')
