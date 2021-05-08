@@ -51,8 +51,6 @@ const createBootcamp = async (req, res, next) => {
 
   const bootcamp = await Bootcamp.create(req.body)
 
-
-
   if (!bootcamp) {
     return next(new ErrorResponse(`Bootcamp not found with id of ${req.params.id}`))
   }
@@ -71,9 +69,7 @@ const updateBootcamp = async (req, res, next) => {
   const bootcamp = await Bootcamp.findById(req.params.id)
 
   if (!bootcamp) {
-    if (!bootcamp) {
-      return next(new ErrorResponse(`Bootcamp not found with id of ${req.params.id}`, 404))
-    }
+    return next(new ErrorResponse(`Bootcamp not found with id of ${req.params.id}`, 404))
   }
 
   //Make sure user is bootcamp owner
