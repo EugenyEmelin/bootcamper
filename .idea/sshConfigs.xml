@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="OPEN_SSH" host="138.68.91.104" id="acdba642-d3ee-491d-a09a-a0528a13a9df" port="22" nameFormat="DESCRIPTIVE" username="root" />
+      <sshConfig host="157.230.103.201" id="84d5e3aa-529e-4a67-8ca6-e71050098aac" keyPath="C:\Users\emeli\.ssh\appuser" port="22" nameFormat="DESCRIPTIVE" username="root" />
     </configs>
   </component>
 </project>
