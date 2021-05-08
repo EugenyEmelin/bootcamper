@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fa758998-f6e7-4f95-97aa-78ae55c32d43" name="digitalocean-devcamper">
+        <fileTransfer accessType="SFTP" host="138.68.91.104" port="22" sshConfigId="acdba642-d3ee-491d-a09a-a0528a13a9df" sshConfig="root@138.68.91.104:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
