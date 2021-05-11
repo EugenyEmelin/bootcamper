@@ -1,0 +1,11 @@
+services:
+  web:
+    image: devcamper
+    init: true
+    build:
+      context: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/node/app
+      - /node/app/node_modules
